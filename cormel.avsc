@@ -1,0 +1,200 @@
+{
+  "type" : "record",
+  "name" : "USegment",
+  "namespace" : "com.amadeus.cormel.types",
+  "fields" : [ {
+    "name" : "DcxId",
+    "type" : "string"
+  }, {
+    "name" : "TreeId",
+    "type" : "int"
+  }, {
+    "name" : "TimeStamp",
+    "type" : [ "null", "long" ],
+    "default" : null
+  }, {
+    "name" : "Initiator",
+    "type" : [ "null", "string" ],
+    "default" : null
+  }, {
+    "name" : "Destination",
+    "type" : [ "null", "string" ],
+    "default" : null
+  }, {
+    "name" : "SAPName",
+    "type" : [ "null", "string" ],
+    "default" : null
+  }, {
+    "name" : "OfficeID",
+    "type" : [ "null", "string" ],
+    "default" : null
+  }, {
+    "name" : "ATID",
+    "type" : [ "null", "string" ],
+    "default" : null
+  }, {
+    "name" : "ServiceType",
+    "type" : [ "null", "string" ],
+    "default" : null
+  }, {
+    "name" : "BEType",
+    "type" : [ "null", "string" ],
+    "default" : null
+  }, {
+    "name" : "DCD",
+    "type" : [ "null", "string" ],
+    "default" : null
+  }, {
+    "name" : "PnrId",
+    "type" : [ "null", "string" ],
+    "default" : null
+  }, {
+    "name" : "QueryIPAddressPort",
+    "type" : [ "null", "string" ],
+    "default" : null
+  }, {
+    "name" : "ParentDcxId",
+    "type" : [ "null", "string" ],
+    "default" : null
+  }, {
+    "name" : "TSegment",
+    "type" : [ "null", {
+      "type" : "record",
+      "name" : "TSegment",
+      "fields" : [ {
+        "name" : "TrxNb",
+        "type" : "string"
+      }, {
+        "name" : "CausingId",
+        "type" : "string"
+      }, {
+        "name" : "TimeStamp",
+        "type" : [ "null", "long" ],
+        "default" : null
+      }, {
+        "name" : "Initiator",
+        "type" : [ "null", "string" ],
+        "default" : null
+      }, {
+        "name" : "Destination",
+        "type" : [ "null", "string" ],
+        "default" : null
+      }, {
+        "name" : "SAPName",
+        "type" : [ "null", "string" ],
+        "default" : null
+      }, {
+        "name" : "QueryType",
+        "type" : [ "null", "string" ],
+        "default" : null
+      }, {
+        "name" : "QueryIPAddressPort",
+        "type" : [ "null", "string" ],
+        "default" : null
+      }, {
+        "name" : "ReplyType",
+        "type" : [ "null", "string" ],
+        "default" : null
+      }, {
+        "name" : "ReplyErrorCode",
+        "type" : [ "null", "int" ],
+        "default" : null
+      }, {
+        "name" : "Flags",
+        "type" : [ "null", "string" ],
+        "default" : null
+      }, {
+        "name" : "ESegment",
+        "type" : [ "null", {
+          "type" : "record",
+          "name" : "ESegment",
+          "fields" : [ {
+            "name" : "Temporality",
+            "type" : [ "null", "int" ],
+            "default" : null
+          } ]
+        } ],
+        "default" : null
+      }, {
+        "name" : "ASegment",
+        "type" : [ "null", {
+          "type" : "record",
+          "name" : "ASegment",
+          "fields" : [ {
+            "name" : "ActionCode",
+            "type" : [ "string", "null" ]
+          } ]
+        } ],
+        "default" : null
+      }, {
+        "name" : "HSegments",
+        "type" : {
+          "type" : "array",
+          "items" : {
+            "type" : "record",
+            "name" : "HSegment",
+            "fields" : [ {
+              "name" : "DuName",
+              "type" : "string"
+            }, {
+              "name" : "HopTimeSec",
+              "type" : [ "null", "float" ],
+              "default" : null
+            }, {
+              "name" : "RespTimeSec",
+              "type" : [ "null", "float" ],
+              "default" : null
+            }, {
+              "name" : "ContraHopTimeSec",
+              "type" : [ "null", "float" ],
+              "default" : null
+            }, {
+              "name" : "InFlightTimeSec",
+              "type" : [ "null", "float" ],
+              "default" : null
+            }, {
+              "name" : "InboundQuerySizeB",
+              "type" : [ "null", "int" ],
+              "default" : null
+            }, {
+              "name" : "OutboundQuerySizeB",
+              "type" : [ "null", "int" ],
+              "default" : null
+            }, {
+              "name" : "InboundReplySizeB",
+              "type" : [ "null", "int" ],
+              "default" : null
+            }, {
+              "name" : "OutboundReplySizeB",
+              "type" : [ "null", "int" ],
+              "default" : null
+            }, {
+              "name" : "InboundQZippedSizeB",
+              "type" : [ "null", "int" ],
+              "default" : null
+            }, {
+              "name" : "OutboundQZippedSizeB",
+              "type" : [ "null", "int" ],
+              "default" : null
+            }, {
+              "name" : "InboundRZippedSizeB",
+              "type" : [ "null", "int" ],
+              "default" : null
+            }, {
+              "name" : "OutboundRZippedSizeB",
+              "type" : [ "null", "int" ],
+              "default" : null
+            } ]
+          }
+        }
+      }, {
+        "name" : "TSegments",
+        "type" : {
+          "type" : "array",
+          "items" : "TSegment"
+        }
+      } ]
+    } ],
+    "default" : null
+  } ]
+}

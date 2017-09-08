@@ -1,0 +1,5 @@
+/* See https://stackoverflow.com/a/7055401/1988855 */
+img {
+    display: block;
+    margin: 0 auto;
+}

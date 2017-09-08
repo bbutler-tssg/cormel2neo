@@ -1,0 +1,16 @@
+target/
+input/
+output/
+script/*.pyc
+*.swp
+graphics/20170802_153002-CROPPED.png
+readme.pdf
+.~lock.*
+readme.odt
+analysis/gephi/
+analysis/yed/annotated/*.pdf
+analysis/yed/annotated/*.png
+analysis/yed/*.pdf
+analysis/yed/*.png
+analysis/implementation.docx
+analysis/results.docx

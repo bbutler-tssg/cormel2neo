@@ -1,0 +1,11 @@
+{
+   "type" : "record",
+   "namespace" : "org.tssg.solas.bb.fum2neo.domain",
+   "name" : "AppEventSummary",
+   "fields" : [
+      { "name" : "DcxId" , "type" : "string" },
+      { "name" : "TrxNb" , "type" : "string" },
+      { "name" : "TreeId" , "type" : "int" },
+      { "name" : "Status" , "type" : "string" }
+   ]
+}

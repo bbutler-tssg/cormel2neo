@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF8' standalone='no'?>
+<graphml xmlns:java="http://www.yworks.com/xml/yfiles-common/1.0/java" xmlns:sys="http://www.yworks.com/xml/yfiles-common/markup/primitives/2.0" xmlns:x="http://www.yworks.com/xml/yfiles-common/markup/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:y="http://www.yworks.com/xml/graphml" xmlns:yed="http://www.yworks.com/xml/yed/3" xmlns="http://graphml.graphdrawing.org/xmlns" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml/1.1/ygraphml.xsd">
+  <key attr.type="string" attr.name="description" for="edge" id="d8"/>
+  <key id="d9" for="edge" yfiles.type="edgegraphics"/>
+  <key id="d6" for="graphml" yfiles.type="resources"/>
+  <key attr.type="string" attr.name="url" for="edge" id="d7"/>
+  <key attr.type="string" attr.name="description" for="node" id="d4"/>
+  <key id="d5" for="node" yfiles.type="nodegraphics"/>
+  <key id="d2" for="port" yfiles.type="portuserdata"/>
+  <key attr.type="string" attr.name="url" for="node" id="d3"/>
+  <key id="d0" for="port" yfiles.type="portgraphics"/>
+  <key id="d1" for="port" yfiles.type="portgeometry"/>
+  <key attr.type="string" attr.name="dummyCormel2" for="node" id="dummyCormel2"/>
+  <key attr.type="string" attr.name="segment" for="node" id="segment"/>
+  <key attr.type="string" attr.name="dummyCormel" for="node" id="dummyCormel"/>
+  <key attr.type="string" attr.name="Edge Label" for="edge" id="edgelabel"/>
+  <graph edgedefault="directed" id="G">
+    <node id="n0">
+      <data key="d4"/>
+      <data key="d5">
+        <y:ShapeNode>
+          <y:Geometry y="-15.0" width="30.0" x="-15.0" height="30.0"/>
+          <y:Fill color="#DA70D6" transparent="false"/>
+          <y:BorderStyle color="#000000" width="1.0" raised="false" type="line"/>
+          <y:NodeLabel iconTextGap="4" modelName="custom" fontStyle="plain" visible="true" horizontalTextPosition="center" hasLineColor="false" height="4.0" fontFamily="Dialog" hasText="false" hasBackgroundColor="false" fontSize="12" autoSizePolicy="content" verticalTextPosition="bottom" y="13.0" x="13.0" textColor="#000000" width="4.0" alignment="center">
+            <y:SmartNodeLabel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:SmartNodeLabel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter nodeRatioY="0.0" nodeRatioX="0.0" labelRatioX="0.0" labelRatioY="0.0" upY="-1.0" upX="0.0" offsetX="0.0" offsetY="0.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+      <data key="dummyCormel2">A second cormel field for n0</data>
+      <data key="segment">Usegment</data>
+      <data key="dummyCormel">A cormel field for n0</data>
+    </node>
+    <node id="n1">
+      <data key="d4"/>
+      <data key="d5">
+        <y:ShapeNode>
+          <y:Geometry y="-15.0" width="30.0" x="-15.0" height="30.0"/>
+          <y:Fill color="#00FFFF" transparent="false"/>
+          <y:BorderStyle color="#000000" width="1.0" raised="false" type="line"/>
+          <y:NodeLabel iconTextGap="4" modelName="custom" fontStyle="plain" visible="true" horizontalTextPosition="center" hasLineColor="false" height="4.0" fontFamily="Dialog" hasText="false" hasBackgroundColor="false" fontSize="12" autoSizePolicy="content" verticalTextPosition="bottom" y="13.0" x="13.0" textColor="#000000" width="4.0" alignment="center">
+            <y:SmartNodeLabel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:SmartNodeLabel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter nodeRatioY="0.0" nodeRatioX="0.0" labelRatioX="0.0" labelRatioY="0.0" upY="-1.0" upX="0.0" offsetX="0.0" offsetY="0.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+      <data key="dummyCormel2">A second cormel field for n1</data>
+      <data key="segment">Tsegment</data>
+      <data key="dummyCormel">A cormel field for n1</data>
+    </node>
+    <edge source="n0" id="e0" target="n1">
+      <data key="weight">1.0</data>
+      <data key="d8"/>
+      <data key="d9">
+        <y:PolyLineEdge>
+          <y:Path sy="0.0" sx="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" width="1.0" type="line"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+      <data key="edgelabel">HAS_T</data>
+    </edge>
+  </graph>
+  <data key="d6">
+    <y:Resources/>
+  </data>
+</graphml>
