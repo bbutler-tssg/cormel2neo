@@ -20,17 +20,17 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
   <description>Transform Cormel output (in Avro format) to Neo4j graph representation</description>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <junitVersion>4.12</junitVersion>
+    <junitVersion>4.13.2</junitVersion>
     <avroVersion>1.8.2</avroVersion>
     <mavenCompilerPluginVersion>3.6.1</mavenCompilerPluginVersion>
     <javaVersion>1.8</javaVersion>
     <slf4jVersion>1.7.25</slf4jVersion>
     <logbackVersion>1.2.3</logbackVersion>
     <buildHelperMavenPluginVersion>3.0.0</buildHelperMavenPluginVersion>
-    <neo4jVersion>3.2.1</neo4jVersion>
+    <neo4jVersion>3.5.31</neo4jVersion>
     <neo4jJavaDriverVersion>1.2.1</neo4jJavaDriverVersion>
     <jcommanderVersion>1.72</jcommanderVersion>
-    <guavaVersion>23.0</guavaVersion>
+    <guavaVersion>31.1-jre</guavaVersion>
   </properties>
   <dependencies>
     <dependency>
