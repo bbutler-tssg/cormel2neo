@@ -30,7 +30,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
     <neo4jVersion>3.5.31</neo4jVersion>
     <neo4jJavaDriverVersion>1.2.1</neo4jJavaDriverVersion>
     <jcommanderVersion>1.72</jcommanderVersion>
-    <guavaVersion>31.1-jre</guavaVersion>
+    <guavaVersion>32.0.1-jre</guavaVersion>
   </properties>
   <dependencies>
     <dependency>
