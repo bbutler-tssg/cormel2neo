@@ -21,7 +21,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <junitVersion>4.13.2</junitVersion>
-    <avroVersion>1.8.2</avroVersion>
+    <avroVersion>1.11.3</avroVersion>
     <mavenCompilerPluginVersion>3.6.1</mavenCompilerPluginVersion>
     <javaVersion>1.8</javaVersion>
     <slf4jVersion>1.7.25</slf4jVersion>
@@ -162,7 +162,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
     </pluginManagement>
   </build>
   <organization>
-    <name>WIT-TSSG</name>
-    <url>https://www.tssg.org</url>
+    <name>SETU</name>
+    <url>https://www.wit.ie</url>
   </organization>
 </project>
