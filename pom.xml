@@ -25,7 +25,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
     <mavenCompilerPluginVersion>3.6.1</mavenCompilerPluginVersion>
     <javaVersion>1.8</javaVersion>
     <slf4jVersion>1.7.25</slf4jVersion>
-    <logbackVersion>1.2.3</logbackVersion>
+    <logbackVersion>[1.2.13,)</logbackVersion>
     <buildHelperMavenPluginVersion>3.0.0</buildHelperMavenPluginVersion>
     <neo4jVersion>3.5.31</neo4jVersion>
     <neo4jJavaDriverVersion>1.2.1</neo4jJavaDriverVersion>
