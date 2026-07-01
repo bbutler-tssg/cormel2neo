@@ -27,7 +27,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
     <slf4jVersion>1.7.25</slf4jVersion>
     <logbackVersion>[1.2.13,)</logbackVersion>
     <buildHelperMavenPluginVersion>3.0.0</buildHelperMavenPluginVersion>
-    <neo4jVersion>5.26.21</neo4jVersion>
+    <neo4jVersion>2026.05.0</neo4jVersion>
     <neo4jJavaDriverVersion>1.2.1</neo4jJavaDriverVersion>
     <jcommanderVersion>1.72</jcommanderVersion>
     <guavaVersion>32.0.1-jre</guavaVersion>
